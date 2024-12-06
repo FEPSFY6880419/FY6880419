@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6880419 Conference Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 21px;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+        }
+        .content {
+            flex: 3;
+            padding: 20px;
+            overflow-wrap: break-word;
+            max-width: calc(100% - 300px); /* Prevent overlapping with TOC */
+        }
+        .toc {
+            flex: 1;
+            padding: 20px;
+            background-color: #f4f4f4;
+            position: fixed;
+            right: 0;
+            top: 0;
+            height: 100%;
+            overflow-y: auto;
+        }
+        .toc ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .toc ul li {
+            margin-bottom: 10px;
+        }
+        .toc a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        .toc a:hover {
+            text-decoration: underline;
+        }
+        section {
+            margin-bottom: 50px;
+        }
+        h2 {
+            color: #333;
+            font-size: 31px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Table of Contents -->
+    <div class="toc">
+        <h3>Table of Contents</h3>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#main-content">Main Content</a></li>
+            <li><a href="#references">References</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="content">
+        <!-- Introduction Section -->
+        <h1 style="font-size: 36px; margin-bottom: 20px;">Diet and Lifestyle</h1>
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>There is common belief that a balanced diet is all you need to be healthy, however this is not the case for many types of people. Diet is something that needs to be catered to an individuals’ needs for many reasons, maybe they’re underweight, overweight, inactive, looking to build muscle, amount of muscle mass, young, old, all these factors and more affect what your ideal diet should look like.</p>
+        </section>
+
+        <!-- Main Content Section -->
+        <section id="main-content">
+            <h2>Main Content</h2>
+            <p>The body mass index is the measurement of a person’s weight relative to their height, giving a measurement in kg/m². This measurement is much more useful for determining a person’s health than their weight as it takes their height into account: a person who is 160cm and is 80kg would be classified as obese with a BMI of 31.2, but a person who is 185cm and is 80kg would be classified as healthy with a BMI of 23.4 (<a href="#reference-cleveland">Cleveland Clinic (2018). Body Mass Index (BMI).</a>).</p>
+
+            <!-- Added Image -->
+            <img src="BMI Chart.jpg" alt="BMI Chart" style="max-width:100%; margin-top: 20px; margin-bottom: 10px;">
+            <p style="font-style: italic; text-align: center;">Figure 1: BMI Chart showing different heights and weights and what category they fall under (<a href="#reference-rosemary">RosemaryConley.com. (2024). Body Mass Index (BMI) Explained</a>).</p>
+
+            <p>If your BMI is below the value 18.5, you are considered underweight, likely because you have a mix of too little muscle and too little fat. When significantly below this figure, this can lead to health complications such as osteoporosis, anaemia, and infertility in women (<a href="#reference-healthdirect">Health Direct Australia (2019). What to do if you are underweight.</a>). As such, your diet would need to help you intake more calories than you burn, without giving you other health issues until you are back within the healthy range. As such, the NHS recommends you aim to have 1 pint of full-fat milk each day, include 2 high calorie snacks a day (such as cheese, chocolate, and cake) and 3 meals a day which have been fortified (<a href="#reference-buckinghamshire">Buckinghamshire Healthcare NHS Trust. (n.d.). Food First: Advice for eating well if you have lost weight or are underweight.</a>). Food fortification is the practice of increasing the content of 1 or more nutrients deliberately to improve the nutritional quality of the food consumed. (<a href="#reference-who">World Health Organization. Food fortification.</a>) In this scenario, an example would be adding some grated cheese to meat dishes to increase the fat content. This diet should be followed until you reach a BMI of around 21 to be well within the healthy range of the BMI scale, upon which you should assume a balanced diet.</p>
+
+            <p>If your BMI is above the value 30, you are considered obese. It is possible for you to be considered overweight because of a large amount of muscle mass, as muscle is more dense than fat, and so losing weight would not be in your best interest if you are something like a bodybuilder. However, if you are obese because of a large body fat percentage, you are at risk of developing severe health complications such as type 2 diabetes, heart disease, strokes (<a href="#reference-who-obesity">World Health Organization (2024). Obesity: Health consequences of being overweight.</a>). As such, it is key for your diet to include the following: A caloric deficit, low fat content, protein, fruit and vegetables. Simply put, if you are consuming less calories than you are burning, you will burn fat and lose weight. Protein not only helps you stay full, but can also make your weight loss journey one which builds muscle mass too if you combine it with regular exercise, as it is easier to build muscle when you are “converting” fat into it (<a href="#reference-nhs">NHS (2022). Healthy eating when trying to lose weight - Better Health.</a>). Doing cardio is also a must, exercises such as running, cycling and swimming are the best exercises for losing weight as they burn the most calories per hour, helping you achieve the calorie deficit and see results faster (<a href="#reference-mayo">Mayo Clinic Staff (2017). Calculating your calories burned.</a>).</p>
+
+            <p>If you are looking to build muscle mass, you are going to need to a few things. First, for the most effective way to build muscle mass, you’re going to need a strict diet, not only in terms of what you’re eating but when you’re eating. Its recommended you eat protein heavy meals a few hours before and a few hours after a workout session to encourage muscle growth and repair (<a href="#reference-huel">Huel. (2015). Huel.</a>). It is recommended you consume “1.5 * Your bodyweight in kg” grams of protein every day; meaning if you weigh 70kg, you should be eating 105g of protein to maximise muscle growth, with negligible changes to muscle growth by consuming more (<a href="#reference-healthspanelite">Healthspanelite.co.uk. (2023). Your muscle-building diet and exercise plan.</a>). Some foods containing high amounts of protein include eggs, chicken, milk, pork, beans, fish and yoghurt, all being very protein dense (<a href="#reference-torrens">Torrens, K. (2023). 10 high protein foods.</a>).</p>
+
+            <p>Now let’s say you’re a perfectly healthy adult, you do a reasonable amount of exercise and lie within the healthy BMI range. For you, a balanced diet would be best. However, a balanced diet isn’t as simple as “eat the same amount of everything”. According to the NHS, a balanced diet is one which contains all of the food groups, with a high amount of fruit and vegetables (at least 5 a day), meals based on their starchy foods (such as potatoes, bread, rice or pasta), dairy or dairy alternatives, proteins from meat, fish, eggs, etc., unsaturated oils and a healthy amount of water (at least 6 to 8 glasses a day) (<a href="#reference-nhs-diet">NHS (2022). Eating a Balanced Diet.</a>). Consistently following a balanced diet can have many health benefits, including having stronger bones, which would in turn reduce your chances of developing conditions such as osteoporosis as you get older, improved long-term mental health and improved brain function, including better focus and memory (<a href="#reference-norfolk">Norfolk County Council. (n.d.). The benefits of healthy eating.</a>).</p>
+
+            <p>In conclusion, as you can see, diet and lifestyle can be circumstantial, it all depends on what stage you’re at, what you want to do, what you’re willing to and where you want to end up. Being healthy will not guarantee you’ll live a long time but it will definitely help not having to deal with avoidable health conditions that come with being overweight and underweight.</p>
+        </section>
+
+        <!-- References Section -->
+        <section id="references">
+            <h2>References</h2>
+            <p id="reference-cleveland">Cleveland Clinic (2018). Body Mass Index (BMI). [online] Cleveland Clinic. Available at: <a href="https://my.clevelandclinic.org/health/articles/9464-body-mass-index-bmi">https://my.clevelandclinic.org/health/articles/9464-body-mass-index-bmi</a></p>
+            <p id="reference-rosemary">RosemaryConley.com. (2024). Body Mass Index (BMI) Explained - RosemaryConley.com. [online] Available at: <a href="https://rosemaryconley.com/body-mass-index/">https://rosemaryconley.com/body-mass-index/</a></p>
+            <p id="reference-healthdirect">Health Direct Australia (2019). What to do if you are underweight. [online] www.healthdirect.gov.au. Available at: <a href="https://www.healthdirect.gov.au/what-to-do-if-you-are-underweight">https://www.healthdirect.gov.au/what-to-do-if-you-are-underweight</a></p>
+            <p id="reference-buckinghamshire">Buckinghamshire Healthcare NHS Trust. (n.d.). Food First: Advice for eating well if you have lost weight or are underweight. [online] Available at: <a href="https://www.buckshealthcare.nhs.uk/pifs/food-first-advice-for-eating-well-if-you-have-lost-weight-or-are-underweight/">https://www.buckshealthcare.nhs.uk/pifs/food-first-advice-for-eating-well-if-you-have-lost-weight-or-are-underweight/</a></p>
+            <p id="reference-who">World Health Organization. Food fortification. [online] Available at: <a href="https://www.who.int/health-topics/food-fortification">https://www.who.int/health-topics/food-fortification</a></p>
+            <p id="reference-who-obesity">World Health Organization (2024). Obesity: Health consequences of being overweight. [online] www.who.int. Available at: <a href="https://www.who.int/news-room/questions-and-answers/item/obesity-health-consequences-of-being-overweight">https://www.who.int/news-room/questions-and-answers/item/obesity-health-consequences-of-being-overweight</a></p>
+            <p id="reference-nhs">NHS (2022). Healthy eating when trying to lose weight - Better Health. [online] nhs.uk. Available at: <a href="https://www.nhs.uk/better-health/lose-weight/healthy-eating-when-trying-to-lose-weight/">https://www.nhs.uk/better-health/lose-weight/healthy-eating-when-trying-to-lose-weight/</a></p>
+            <p id="reference-mayo">Mayo Clinic Staff (2017). Calculating your calories burned. [online] Mayo Clinic. Available at: <a href="https://www.mayoclinic.org/healthy-lifestyle/weight-loss/in-depth/exercise/art-20050999">https://www.mayoclinic.org/healthy-lifestyle/weight-loss/in-depth/exercise/art-20050999</a></p>
+            <p id="reference-huel">Huel. (2015). Huel. [online] Available at: <a href="https://uk.huel.com/pages/how-to-eat-when-building-muscle">https://uk.huel.com/pages/how-to-eat-when-building-muscle</a></p>
+            <p id="reference-healthspanelite">Healthspanelite.co.uk. (2023). Your muscle-building diet and exercise plan. [online] Available at: <a href="https://www.healthspanelite.co.uk/knowledge-hub/nutrition/your-muscle-building-diet-and-exercise-plan">https://www.healthspanelite.co.uk/knowledge-hub/nutrition/your-muscle-building-diet-and-exercise-plan</a></p>
+            <p id="reference-torrens">Torrens, K. (2023). 10 high protein foods. [online] Bbcgoodfood.com. Available at: <a href="https://www.bbcgoodfood.com/health/nutrition/best-sources-protein">https://www.bbcgoodfood.com/health/nutrition/best-sources-protein</a></p>
+            <p id="reference-nhs-diet">NHS (2022). Eating a Balanced Diet. [online] nhs.uk. Available at: <a href="https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/eating-a-balanced-diet/">https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/eating-a-balanced-diet/</a></p>
+            <p id="reference-norfolk">Norfolk County Council. (n.d.). The benefits of healthy eating. [online] Available at: <a href="https://www.norfolk.gov.uk/articles/42224/The-benefits-of-healthy-eating">https://www.norfolk.gov.uk/articles/42224/The-benefits-of-healthy-eating</a></p>
+        </section>
+    </div>
+</div>
+
+</body>
+<img src="WebBanner.png" alt="Banner" width="1200" height="300">
+</html>
